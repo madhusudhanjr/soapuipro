@@ -12,7 +12,7 @@ public class SoapUITest {
 		System.out.println("START OF TESTCASE:: ZAP MAIL SERVICE TEST");
 
 		SoapUIProTestCaseRunner runner = new SoapUIProTestCaseRunner();
-		runner.setProjectFile("TestSuite/ZAP-mail-project-soapui-project.xml");
+		runner.setProjectFile("src/test/resources/TestSuite/ZAP-mail-project-soapui-project.xml");
 		runner.setPrintReport(true);
 		runner.setJUnitReport(true);
 		runner.setExportAll(true);
